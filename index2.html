@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>GENERAL BUS PASS APPLICATION</h3>
+    <form>
+      <fieldset>
+        <legend>Applicant details</legend>
+        <label for="Name">Name</label>
+        <input type="text" name="Name" id="Name"> <br> <br>
+        <label for="">Father/Gaurdians Name</label> <br>
+        <input type="text" name="Father/Gaurdians Name" id="Father/Gaurdians Name"> <br> <br>
+        <label for="dob">Date of Birth</label>
+        <input type="date" name="Date of Birth" id="Date of Birth"> <br>
+        <label for="gender">Select your gender:</label>
+        <input type="radio" name="gender" id="Male" value="Male">
+        <label for="Male">male</label>
+        <input type="radio" name="gender" id="Female" value="Female">
+        <label for="Male">Female</label> <br>
+        <!-- <label for="age">Age as on</label>
+        <input type="number" name="Age as on" id="Age as on"> -->
+        <label for="Aadhaar">Aadhaar No</label>
+        <input type="text" name="Adhaar" id="Adhaar"> <br> <br>
+        <label for="Whatsapp No">Whatsapp No</label>
+        <input type="text" name="Whatsapp No" id="Whatsapp No"> <br>
+        <label for="idproof">photo</label>
+    <input type="file" id="photo" name="photo" accept=".pdf,.jpg,.jpeg,.png" required>
+    </fieldset>
+        <h3>Residential Address Details</h3>
+          <fieldset>
+          <legend>Residential Adress</legend>
+        <label for="Name">Applicant Address</label>
+        <input type="text" name="Applicant Address" id="Applicant Address"> <br> <br>
+        <label for="District">District:</label>
+    <select id="District" name="District" required>
+      <option value="">--Select---</option>
+      <option value="krishna">krishna</option>
+      <option value="guntur">guntur</option>
+      <option value="elluru">elluru</option>
+    </select> <br> <br>
+    <label for="Mandal">Mandal:</label>
+    <select id="Mandal" name="Manadl" required>
+      <option value="">--Select---</option>
+      <option value="tiruvuru">tiruvuru</option>
+      <option value="guntur">mylavaram</option>
+      <option value="elluru">vissnepeta</option>
+    </select> <br> <br>
+    </fieldset>
+    <h3>Pass Type Details</h3>
+    <fieldset>
+      <legend>Pass Type Details</legend>
+    <label for="city">city:</label>
+    <select id="city" name="city" required>
+      <option value="">--Select---</option>
+      <option value="vijayawada">tiruvuru</option>
+      <option value="vishakapatnam">mylavaram</option>
+      <option value="anantapur">vissnepeta</option>
+         </select> <br> <br>
+        <select id="pass type" name="pass type" required>
+      <option value="">--Select---</option>
+      <option value="Bommananahal">Bommananahal</option>
+      <option value="kukatapally">kukatapally</option>
+      <option value="ameerpet">ameerpet</option></fieldset>
+      </select>
+      </fieldset> 
+      <h3>Mode of payment & pass collection</h3>
+      <fieldset>
+        <legend>Mode of Payment & pass collection</legend>
+      <label for="payment mode">payment mode:</label>
+      <select id="payment mode" name="payment mode" required>
+      <option value="">--Select---</option>
+      <option value="credit card">credit card</option>
+      <option value="debit">debit</option>
+      <option value="upi">upi</option>
+         </select> <br><br>
+         <label for="pass delivery mode">pass delivery mode:</label>
+      <select id="payment mode" name="payment mode" required>
+      <option value="">--Select---</option>
+      <option value="post">post</option>
+      <option value="collect in bustop">collect in bustop</option>
+      <option value="upi">upi</option>
+      </select> <br> <br>
+      </fieldset>
+       <input type="submit"> <br> <br>
+        </form>
+    </form>
+</body>
+</html>

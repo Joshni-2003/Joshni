@@ -3,12 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Form Example</title>
 </head>
 <body>
-    <h1>Multiple Choice Questions</h1>
-    <a href="http://127.0.0.1:3000/DAY4/order.html">task-1</a> <br>
-    <a href="http://127.0.0.1:3000/DAY4/ordered.html">task-2</a> <br> 
-    <a href="http://127.0.0.1:3000/DAY4/unordered.html">task-3</a> <br>
+   <form action="./index1.html" method="get">
+    <label for="date">Enter date(ddmmyyyy):</label>
+    <!-- <input type="text" name="date" id="date" pattern="\d{2}\d{2}\d{4}" required> <br> <br> -->
+     <input type="text" name="date" id="date" pattern="[0-9]{2}[0-9]{4}" required> <br><br>
+    <input type="submit">
+    <input type="reset">
+   </form>
 </body>
 </html>
